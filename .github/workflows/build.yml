@@ -26,7 +26,4 @@ jobs:
         run: npx prettier --check .
 
       - name: Run lint Eslint
-        run: eslint .
-
-      - name: Run build
-        run: npm run build
+        run: npx eslint .
